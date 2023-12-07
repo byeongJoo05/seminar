@@ -1,0 +1,32 @@
+= Member API 문서 (예시)
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+
+== 회원 등록
+=== Request
+include::{snippets}/register-member/http-request.adoc[]
+request Body
+include::{snippets}/register-member/request-body.adoc[]
+request Field
+include::{snippets}/register-member/request-fields.adoc[]
+=== Response
+include::{snippets}/register-member/http-response.adoc[]
+request Body
+include::{snippets}/register-member/response-body.adoc[]
+request Field
+include::{snippets}/register-member/response-fields.adoc[]
+
+== 등록된 회원 정보 목록 가져오기
+=== Request
+include::{snippets}/find-members/http-request.adoc[]
+request Body
+include::{snippets}/find-members/request-body.adoc[]
+=== Response
+include::{snippets}/find-members/http-response.adoc[]
+request Body
+include::{snippets}/find-members/response-body.adoc[]
+request Field
+include::{snippets}/find-members/response-fields.adoc[]
