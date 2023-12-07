@@ -2,7 +2,7 @@ POST http://localhost:8080/v1/member/register
 Content-Type: application/json;
 
 {
-  "memberId": "son1",
+  "memberId": "son",
   "pw": "123",
   "nickname": "sonny555"
 }
