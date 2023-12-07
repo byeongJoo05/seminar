@@ -1,8 +1,8 @@
-package com.example.seminar.stream_prac.service;
+package com.example.seminar.module.service;
 
-import com.example.seminar.stream_prac.domain.Member;
-import com.example.seminar.stream_prac.dto.MemberDTO;
-import com.example.seminar.stream_prac.repository.MemberRepository;
+import com.example.seminar.module.domain.Member;
+import com.example.seminar.module.dto.MemberDTO;
+import com.example.seminar.module.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

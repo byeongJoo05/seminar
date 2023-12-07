@@ -1,4 +1,4 @@
-package com.example.seminar.stream_prac.dto;
+package com.example.seminar.module.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

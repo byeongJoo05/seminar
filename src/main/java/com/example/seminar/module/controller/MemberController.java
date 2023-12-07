@@ -1,9 +1,9 @@
-package com.example.seminar.stream_prac.controller;
+package com.example.seminar.module.controller;
 
-import com.example.seminar.stream_prac.dto.MemberDTO;
-import com.example.seminar.stream_prac.service.MemberService;
+import com.example.seminar.module.dto.MemberDTO;
+import com.example.seminar.module.service.MemberService;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

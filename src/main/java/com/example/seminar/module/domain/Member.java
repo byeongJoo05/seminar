@@ -1,5 +1,6 @@
-package com.example.seminar.stream_prac.domain;
+package com.example.seminar.module.domain;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,6 +19,7 @@ public class Member extends BaseEntity{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long seq;
 
+    @Column(name = "member_id", unique = true)
     private String memberId;
 
     private String pw;
